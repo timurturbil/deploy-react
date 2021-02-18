@@ -7,6 +7,7 @@ function App() {
     <div className="App">
      <h1>my app</h1>
      <img src={profileImage} alt/>
+     <h2>evetttt</h2>
     </div>
   );
 }
