@@ -10,9 +10,9 @@ import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import { useHistory } from "react-router-dom";
 
-function  App() {
+function  yeniApp() {
     const history = useHistory();
-    const navigateTo = () => history.push('./anotherpage.js');
+    const navigateTo = () => history.push('/');
     return (
       <div className="App">
        <img src={profileImage} className="photo"/>
@@ -32,22 +32,9 @@ function  App() {
         </CardContent>
       </Card>
       </div>
-      <div className="same">
-      <Card className="heey">
-        <CardContent>
-  
-          <Typography variant="h5" component="h2">
-            my Javascript practices 
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small" onClick={navigateTo}>See the practices</Button>
-        </CardActions>
-      </Card>
-      </div>
       </div>
     );
   
 }
 
-export default App;
+export default yeniApp;

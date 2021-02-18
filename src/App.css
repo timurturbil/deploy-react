@@ -2,7 +2,21 @@
   text-align: center;
 }
 body{
-  background-color: orange;
+  background-color: rgb(44, 42, 42);
+}
+.isim{
+  padding-bottom: 220px;
+}
+.same{
+  
+  width: 300px;
+  padding: 40px;
+  display: inline-block;
+}
+.photo{
+  padding-top: 50px;
+  height: 150px;
+  width: 150px;
 }
 .App-logo {
   height: 40vmin;
